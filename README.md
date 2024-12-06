@@ -24,3 +24,8 @@ celery -A backend worker --loglevel=info
 Ahora, vuelve a la terminal donde tienes activado el entorno virtual y ejecuta el comando para arrancar el servidor de desarrollo de Django. Una vez que el servidor esté en funcionamiento, podrás acceder a la aplicación en el navegador en la URL proporcionada por el comando.
 
 python manage.py runserver
+
+Para ingreso al login, se debe usar la ruta 
+http://localhost:5173/login 
+usuario: bayron
+contraseña: 110509
